@@ -1,0 +1,26 @@
+{
+  "name": "godfreycortez.me",
+  "version": "0.0.1",
+  "description": "My website",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GodfreyCortez/GodfreyCortez.me.git"
+  },
+  "keywords": [
+    "godfreycortez"
+  ],
+  "author": "godfreycortez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GodfreyCortez/GodfreyCortez.me/issues"
+  },
+  "homepage": "https://github.com/GodfreyCortez/GodfreyCortez.me#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
