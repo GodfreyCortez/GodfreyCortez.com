@@ -4,8 +4,10 @@
   "description": "My website",
   "main": "backend/src/index.js",
   "scripts": {
+    "build": "browserify frontend/src/main.js -o frontend/public/bundle.js",
     "test": "test",
-    "start": "node backend/src/index.js"
+    "start": "node backend/src/index.js",
+    "all": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,10 @@
   },
   "homepage": "https://github.com/GodfreyCortez/GodfreyCortez.me#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
   }
 }
