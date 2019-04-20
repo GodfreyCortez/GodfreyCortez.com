@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/GodfreyCortez/GodfreyCortez.me#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7"
