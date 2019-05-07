@@ -6,13 +6,25 @@ font-family: 'Lora', serif;*/
     overflow: auto;
 }
 
-.display-1{
-    font-family: 'Lora', serif;
-}
-.container{
+body {
     color: antiquewhite;
 }
 
-#main-carousel {
-    height: 75%;
+.about-me {
+    font-family: 'Lora', serif;
+    background-color: #7e7f9a;
+    color: white;
+    margin: 10px 12.5%;
+    padding: 10px;
+}
+
+.about-me img {
+    margin: 5px;
+    -webkit-filter: drop-shadow( 5px 2px 5px rgba(0, 0, 0, .75));
+    filter: drop-shadow( 5px 2px 5px rgba(0, 0, 0, .75));
+}
+
+.position {
+    display: grid;
+    grid-template-columns: 100px auto;
 }
