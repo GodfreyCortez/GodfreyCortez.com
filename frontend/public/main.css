@@ -6,16 +6,10 @@ font-family: 'Lora', serif;*/
     overflow: auto;
 }
 
-body {
-    color: antiquewhite;
-}
-
 .about-me {
     font-family: 'Lora', serif;
-    background-color: #7e7f9a;
-    color: white;
-    margin: 10px 12.5%;
-    padding: 10px;
+    background-color: #e8e8e8;
+    padding: 10px 12.5%;
 }
 
 .about-me img {
