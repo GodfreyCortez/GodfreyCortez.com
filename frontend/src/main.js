@@ -1,5 +1,4 @@
 const $ = require('jquery')
-require('bootstrap')
 
 // Image URLs
 /* const headerImages = [
