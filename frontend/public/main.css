@@ -54,3 +54,18 @@ font-family: 'Lora', serif;*/
 article.position {
     padding: 2.5% 0;
 }
+
+#links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-container > .link {
+    font-size: 1.75rem;
+    width: 33%;
+    text-align: center;
+}
+
+.link > a {
+    color: black;
+}

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Godfrey Cortez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="resources/png/G-Logo.png" >
     <link href="https://fonts.googleapis.com/css?family=Abel|Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,16 +20,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html" id="brand-heading">Godfrey Cortez</a>
-        <!--The Button below creates the hamburger menu on smaller screens-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="hamburger-nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            </div>
-        </div>
+        <!-- Hamburger Implementation for future usage-->
     </nav>
 
 
@@ -68,6 +60,28 @@
 
 
     <main class="about-me">
+
+        <section id="links-container" class="container">
+            <p id="resume-link" class="link">
+                <a href="resources/Resume-Godfrey-Cortez.pdf" >
+                    <i class="fa fa-sticky-note"></i>
+                    Resume!
+                </a>
+            <p>
+            <p id="github-link" class="link">
+                <a href="https://github.com/godfreycortez">
+                    <img src="resources/github-logo.svg" alt="Github" width="40px" height="40px"/>
+                    Github!
+                </a>
+            </p>
+            <p id="linkedin-link" class="link">
+                <a href="https://linkedin.com/in/godfreycortez">
+                    <img src="resources/linkedin-logo.svg" alt="LinkedIn" width="40px" height="40px" />
+                    LinkedIn!
+                </a>
+            </p>
+        </section>
+
         <section class="headline container">
             <div class="card">
                 <div class="card-body">
@@ -94,8 +108,8 @@
                             <h4>Software Engineer Co-op</h4>
                             <h5>May 2019 - August 2019</h5>
                             <ul>
-                                <li>Rebuilt a web application using React and NodeJS from the ground up which helped to manage the cashflow within
-                                    Scotiabank. 
+                                <li>Rebuilt a web application using React and NodeJS from the ground up which helped to manage the cashflow regarding 
+                                    internal and external within Scotiabank. 
                                 </li>
                                 <li>Used various libraries such as Charts.js and reactstrap to create a cash management dashboard on the frontend, while 
                                     the backend used expressjs and an oracle client to connect to the database.
@@ -162,6 +176,7 @@
             </div>
         </section>
     </main>
+
 </body>
 
 </html>
