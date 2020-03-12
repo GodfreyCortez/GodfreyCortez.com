@@ -44,7 +44,9 @@ font-family: 'Lora', serif;*/
 
 .position {
     display: grid;
-    grid-template-columns: 100px auto;
+    gap: 1rem;
+    grid-auto-flow: row;
+    grid-template-columns: 100px 1fr;
 }
 
 .container {
@@ -56,16 +58,44 @@ article.position {
 }
 
 #links-container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
 }
 
 #links-container > .link {
     font-size: 1.75rem;
-    width: 33%;
     text-align: center;
 }
 
 .link > a {
     color: black;
+}
+
+@media(max-width: 768px) {
+    .position {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .position > img {
+       display: block;
+       margin: 0 auto;
+    }
+
+    .card h1, .card h4, .card h5 {
+        font-size: 1.5rem;
+    }
+
+    #links-container > .link {
+        font-size: 1.25rem;
+    }
+
+    .about-me img {
+        margin: 5px;
+        width: 30px;
+        height: auto;
+    }
 }
