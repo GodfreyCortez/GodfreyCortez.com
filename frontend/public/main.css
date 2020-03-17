@@ -93,8 +93,7 @@ article.position {
         font-size: 1.25rem;
     }
 
-    .about-me img {
-        margin: 5px;
+    #links-container img {
         width: 30px;
         height: auto;
     }
