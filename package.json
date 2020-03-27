@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/GodfreyCortez/GodfreyCortez.com#readme",
   "dependencies": {
+    "animejs": "^3.1.0",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
