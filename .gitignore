@@ -1,3 +1,4 @@
 /node_modules
 /frontend/public/bundle.js
 /frontend/public/resources/High_Quality_Images
+**/.DS_Store
