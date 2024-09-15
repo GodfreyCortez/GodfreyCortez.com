@@ -7,15 +7,15 @@
     <title>GC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="resources/png/G-Logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Lora" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script type="text/javascript" src="bundle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
@@ -105,19 +105,19 @@
 
         <section id="links-container" class="container">
             <p id="resume-link" class="link">
-                <a href="resources/Resume-Godfrey-Cortez.pdf">
+                <a href="resources/Resume-Godfrey-Cortez.pdf" class="roboto-regular">
                     <i class="fa fa-sticky-note"></i>
                     Resume!
                 </a>
             </p>
             <p id="github-link" class="link">
-                <a href="https://github.com/godfreycortez">
+                <a href="https://github.com/godfreycortez" class="roboto-regular">
                     <img src="resources/github-logo.svg" alt="Github" width="40px" height="40px" />
                     Github!
                 </a>
             </p>
             <p id="linkedin-link" class="link">
-                <a href="https://linkedin.com/in/godfreycortez">
+                <a href="https://linkedin.com/in/godfreycortez" class="roboto-regular">
                     <img src="resources/linkedin-logo.svg" alt="LinkedIn" width="40px" height="40px" />
                     LinkedIn!
                 </a>
@@ -127,11 +127,10 @@
         <section class="headline container">
             <div class="card">
                 <div class="card-body">
-                    <h1 class="card-title">Who I Am</h1>
+                    <h1 class="card-title roboto-bold">Who I Am</h1>
                     <p>
-                        There is no doubt tech is everywhere these days, and there's no doubt that it has become one of my passions.
-                        I 😍 tech and that's why I'm currently studying Computer Engineering at the
-                        University of Waterloo. I want to use the knowledge that I gain to build innovative
+                        There is no doubt tech is everywhere, and there's no doubt that it has become one of my passions in life.
+                        I 😍 tech and that's why I studied Computer Engineering at the University of Waterloo. I want to use the knowledge that I have gained to build innovative
                         technology to help people in their everyday life. From autonomous vehicles
                         to artificial intelligence to exploring Mars, I want to be a part of the story that takes the world into the future.
                     </p>
@@ -142,11 +141,29 @@
         <section class="experience container">
             <div class="card">
                 <div class="card-body">
-                    <h1>What I've Done - Experience</h1>
+                    <h1 class="roboto-bold">What I've Done - Experience</h1>
                     <article class="position">
-                        <img src="resources/png/replicant.png" alt="Replicant Logo" width="75px" height="75px" />
+                        <img src="resources/replicant-logo.svg" alt="Replicant Logo" width="75px" height="75px" />
                         <div class="summary">
                             <h2>Replicant</h2>
+                            <h4><strong>Software Engineer II</strong></h4>
+                            <h6>June 2024 - Present</h6>
+                            <ul>
+                                <li>Collaborated to create a mono-repo solution for voice bots within similar industries to share common components and use-cases, allowing for the team to scale the development of bots resulting in a time savings of 30% or in time spent for development
+                                </li>
+                            </ul>
+                            <h4><strong>Software Engineer I</strong></h4>
+                            <h6>July 2022 - June 2024</h6>
+                            <ul>
+                                <li>Led over 7 projects creating voice bots with the usage of internal SDKs and large language models to automate contact centres in multiple industries including retail, airlines, debt relief and delivery services used by 10K+ callers a day leading to reduced costs
+                                </li>
+                                <li>Communicated and worked remotely with clients and stakeholders on cross-functional teams such as Product, QA, Engagement Managers, and other engineering teams to estimate timelines, develop prototypes, iterate and implement solutions, provide technical feedback and align on expectations resulting in voice bots delivered on time with high client satisfaction
+                                </li>
+                                <li>Contributed 5 components to an internal shared library to improve standardization in the development of voice bots and wrote several documents on processes within the organization such as the usage of components, setting up development environments, and creating alerting within the platform
+                                </li>
+                                <li>Improved internal tooling within the team by fixing bugs within the internal SDK and shared libraries, upgrading an internal VS Code extension to support mono-repos, and provided support to other teams, saving time on their development process by avoiding workarounds
+                                </li>
+                            </ul>
                             <h4><strong>Software Developer Co-op</strong></h4>
                             <h6>September 2021 - December 2021</h6>
                             <ul>
@@ -154,7 +171,7 @@
                                 </li>
                                 <li>Represented the company by meeting with customers to update them on the status of projects, clarified requirements, and gathered information to move the project forward
                                 </li>
-                                <li>Participated in code reviews on a daily basis to ensure that code didn’t contain any bugs and met the specified requirements
+                                <li>Participated in code reviews on a daily basis to ensure that code didn't contain any bugs and met the specified requirements
                                 </li>
                                 <li>Estimated a weeks-long project and delegated tasks to others in JIRA to help keep it on the timeline
                                 </li>
